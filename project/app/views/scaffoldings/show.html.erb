@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @scaffolding %>
+
+<div>
+  <%= link_to "Edit this scaffolding", edit_scaffolding_path(@scaffolding) %> |
+  <%= link_to "Back to scaffoldings", scaffoldings_path %>
+
+  <%= button_to "Destroy this scaffolding", @scaffolding, method: :delete %>
+</div>
